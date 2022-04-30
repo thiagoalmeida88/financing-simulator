@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulator</title>
+
+    <!-- Styles Css -->
+    <link rel="stylesheet" href="assets/css/simulator.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Scripts JS -->
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/simulator.js"></script>
+</head>
+<body>
+<div class="container-wrap" data-nav-pos="after_project" data-rm-header="false">
+    <div class="container">
+        <div class="gridRoot">
+            <div class="gridSidebar">
+                <div class="simulador">
+                    <div class="simulacaoBase" id="formSimulador" data-simulador-credito="[58500,61750,65000,68250,71500,78000,84500,91000,97500,104000,110500,117000,123500,130000,136500,143000,149500,156000,162500,178750,195000,211250,227500,243750,260000,292500,325000]" data-simulador-parcela="[482.87011173184,509.69622905028,536.52234636872,563.34846368715,590.17458100559,643.82681564246,697.47905027933,751.1312849162,804.78351955307,858.43575418994,912.08798882682,965.74022346369,1019.3924581006,1073.0446927374,1126.6969273743,1180.3491620112,1234.001396648,1287.6536312849,1341.3058659218,1475.436452514,1609.5670391061,1743.6976256983,1877.8282122905,2011.9587988827,2146.0893854749,2414.3505586592,2682.6117318436]" data-simulador-entrada="[31500,33250,35000,36750,38500,42000,45500,49000,52500,56000,59500,63000,66500,70000,73500,77000,80500,84000,87500,96250,105000,113750,122500,131250,140000,157500,175000]" data-simulador-valor="[90000
+,95000
+,100000
+,105000
+,110000
+,120000
+,130000
+,140000
+,150000
+,160000
+,170000
+,180000
+,190000
+,200000
+,210000
+,220000
+,230000
+,240000
+,250000
+,275000
+,300000
+,325000
+,350000
+,375000
+,400000
+,450000
+,500000]">
+                        <div class="simuladorInt">
+                            <label> Deslize o botão abaixo para simular um crédito<br>
+                                <input type="range" min="1" max="27" value="10" class="slider" id="simuladorRange">
+                            </label>
+                            <ul id="simuladorResult" class="blur">
+                                <li class="credito">Crédito: <strong>R$ 110.500,00</strong></li>
+                                <li class="parcela">Parcelas: <strong>R$ 912,08</strong></li>
+                                <li class="entrada">Entrada aproximada: <strong>R$ 59.500,00</strong></li>
+                                <li class="valor">Valor Total: <strong>R$ 170.000,00</strong></li>
+                                <li class="notificacoes">Essa é a simulação de como pode ser seu crédito em até <strong>179 parcelas</strong>.</li>
+                                <li class="notificacoes_extra"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
